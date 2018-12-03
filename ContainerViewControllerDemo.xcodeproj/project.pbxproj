@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		63D1BE092009732400A01012 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D1BE082009732400A01012 /* AppDelegate.swift */; };
-		63D1BE0B2009732400A01012 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D1BE0A2009732400A01012 /* ViewController.swift */; };
+		63D1BE0B2009732400A01012 /* MasterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D1BE0A2009732400A01012 /* MasterController.swift */; };
 		63D1BE0E2009732400A01012 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D1BE0C2009732400A01012 /* Main.storyboard */; };
 		63D1BE102009732400A01012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D1BE0F2009732400A01012 /* Assets.xcassets */; };
 		63D1BE132009732400A01012 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D1BE112009732400A01012 /* LaunchScreen.storyboard */; };
+		63D1BE1B200973F600A01012 /* FirstController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D1BE1A200973F600A01012 /* FirstController.swift */; };
+		63D1BE1D2009742600A01012 /* SecondController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D1BE1C2009742600A01012 /* SecondController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		63D1BE052009732400A01012 /* ContainerViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContainerViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D1BE082009732400A01012 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		63D1BE0A2009732400A01012 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63D1BE0A2009732400A01012 /* MasterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterController.swift; sourceTree = "<group>"; };
 		63D1BE0D2009732400A01012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63D1BE0F2009732400A01012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63D1BE122009732400A01012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63D1BE142009732400A01012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D1BE1A200973F600A01012 /* FirstController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstController.swift; sourceTree = "<group>"; };
+		63D1BE1C2009742600A01012 /* SecondController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				63D1BE082009732400A01012 /* AppDelegate.swift */,
-				63D1BE0A2009732400A01012 /* ViewController.swift */,
+				63D1BE0A2009732400A01012 /* MasterController.swift */,
+				63D1BE1A200973F600A01012 /* FirstController.swift */,
+				63D1BE1C2009742600A01012 /* SecondController.swift */,
 				63D1BE0C2009732400A01012 /* Main.storyboard */,
 				63D1BE0F2009732400A01012 /* Assets.xcassets */,
 				63D1BE112009732400A01012 /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63D1BE0B2009732400A01012 /* ViewController.swift in Sources */,
+				63D1BE1B200973F600A01012 /* FirstController.swift in Sources */,
+				63D1BE1D2009742600A01012 /* SecondController.swift in Sources */,
+				63D1BE0B2009732400A01012 /* MasterController.swift in Sources */,
 				63D1BE092009732400A01012 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
